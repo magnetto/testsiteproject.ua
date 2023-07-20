@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ander Role Play - Головна</title>
+    <link rel="icon" href="C:/Users/n9617/Downloads/photo_2023-07-10_17-49-27.jpg" type="image/jpeg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #333333;
+            color: #fff;
+        }
+
+        header {
+            background-color: #444444;
+            padding: 10px;
+            width: 100%;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin-right: 10px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #ffcc00;
+        }
+
+        .hero {
+            background-image: url("background.jpg");
+            background-size: cover;
+            text-align: center;
+            padding: 100px;
+            width: 100%;
+            animation: fadeIn 1s ease 1 forwards;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 24px;
+            margin-bottom: 30px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ffcc00;
+            color: #333333;
+            font-size: 20px;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background-color: #f4b400;
+        }
+
+        .content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            margin: 50px 0;
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .features {
+            text-align: center;
+            width: 60%;
+            background-color: #444444;
+            padding: 50px;
+            margin-bottom: 30px;
+            animation: fadeIn 1s ease 1 forwards;
+        }
+
+        .features h2 {
+            font-size: 36px;
+            margin-bottom: 30px;
+        }
+
+        .features ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .features li {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .download {
+            text-align: center;
+            width: 100%;
+            background-color: #333333;
+            padding: 50px;
+            animation: fadeIn 1s ease 1 forwards;
+        }
+
+        .download h2 {
+            font-size: 36px;
+            margin-bottom: 30px;
+        }
+
+        .footer {
+            background-color: #444444;
+            padding: 20px;
+            color: #fff;
+            text-align: left;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+
+        .social-icon {
+            margin-left: 10px;
+            width: 30px;
+            height: 30px;
+        }
+
+        .youtube-icon {
+            color: #ff0000;
+        }
+
+        .telegram-icon {
+            color: #0088cc;
+        }
+
+        .tiktok-icon {
+            color: #000000;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Головна</a></li>
+                <li><a href="https://www.youtube.com">Форум</a></li>
+                <li><a href="https://drive.google.com/drive/u/0/my-drive">Завантаження</a></li>
+                <li><a href="https://example.com">Донат</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1 class="fadeIn">Ласкаво просимо до Ander Role Play!</h1>
+        <p class="fadeIn">Найкращий SA-MP сервер в Україні!</p>
+        <a href="#" class="cta-button fadeIn">Дізнатися більше</a>
+    </section>
+
+    <div class="content">
+        <section class="features" id="about-server">
+            <h2 class="fadeIn">Про Наш Сервер</h2>
+            <p class="fadeIn">Ander RolePlay - SA-MP (San Andreas Multiplayer) - це Українский проект, де ви можете стати бандитом або підти в різні організації як армія, полиция і тд.</p>
+            <p class="fadeIn">Проект представляє собою відкритий світ GTA San Andreas де кожний гравець самостійно зможе вибирати свою роль на нашому сервері. Вам самим обирати ким ви хочете стати, чи полицейским, який поддерживает порядок у штате, чи криминальным авторитетом.</p>
+        </section>
+
+        <section class="download">
+            <h2 class="fadeIn">Завантажте клиєнт гри та приєднуйтесь до нас!</h2>
+            <a href="https://drive.google.com/drive/u/0/my-drive" class="cta-button fadeIn">Скачати зараз</a>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <p class="fadeIn">&copy; 2023 Ander Role Play. Усі права захищено.</p>
+        <div class="social-icons fadeIn">
+            <a href="https://www.youtube.com" class="social-icon youtube-icon"><i class="fab fa-youtube"></i></a>
+            <a href="https://t.me/your_telegram_username" class="social-icon telegram-icon"><i class="fab fa-telegram-plane"></i></a>
+            <a href="https://www.tiktok.com/@your_tiktok_username" class="social-icon tiktok-icon"><i class="fab fa-tiktok"></i></a>
+        </div>
+    </footer>
+
+    <script>
+        // JavaScript код для прокрутки страницы при нажатии на "Дізнатися більше"
+        document.querySelector('.cta-button').addEventListener('click', function (event) {
+            event.preventDefault(); // Предотвращаем переход по ссылке
+            const aboutServerSection = document.getElementById('about-server');
+            const scrollOffset = -50; // You can adjust this value to control the scroll position
+            const targetPosition = aboutServerSection.getBoundingClientRect().top + window.pageYOffset + scrollOffset;
+            window.scrollTo({ top: targetPosition, behavior: 'smooth' });
+        });
+    </script>
+</body>
+</html>
